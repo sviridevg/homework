@@ -5,10 +5,7 @@
 
 a {
     text-decoration: none;
-}
-
-.pointer {
-    cursor: pointer;
+    cursor: url(../img/cursor.svg), auto;
 }
 
 .body, button, select, input {
@@ -65,7 +62,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    cursor: pointer;
+    cursor: url(../img/cursor.svg), auto;
     
     &:hover {
         background: rgb(235, 68, 63);
