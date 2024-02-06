@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.body, button, select, input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.355%, rgb(0, 9, 21) 100%), url(../img/sp2077.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 750px;
+  padding-top: 217px;
+}
+.top__text {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 480px;
+  margin-top: 32px;
+}
+
+.keywords {
+  font-weight: 700;
+}
+
+.buttons {
+  width: 235px;
+  height: 49px;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  margin-top: 44px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+.buttons:hover {
+  background: rgb(235, 68, 63);
+}
+
+.games__box {
+  background: rgb(0, 9, 21);
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  justify-content: center;
+  padding-block: 128px;
+}
+.games__link {
+  display: flex;
+  width: 379px;
+  height: 300px;
+  border-radius: 16px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.games__link:hover {
+  border: 3px solid rgb(68, 210, 255);
+}
+.games__link_one {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game1.jpeg);
+}
+.games__link_two {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
+}
+.games__link_three {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game3.jpeg);
+}
+.games__card-text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  position: absolute;
+  padding-left: 32px;
+  padding-bottom: 32px;
+}/*# sourceMappingURL=style.css.map */
