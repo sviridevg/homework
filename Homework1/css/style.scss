@@ -76,6 +76,7 @@ a {
         column-gap: 32px;
         justify-content: center;
         padding-block: 128px;
+        box-sizing: border-box;
     }
 
 
@@ -85,14 +86,14 @@ a {
         height: 300px;
         border-radius: 16px;
         align-items: flex-end;
-        box-sizing: border-box;
 
         &:hover {
-            border: 3px solid rgb(68, 210, 255);
+            outline: 3px solid rgb(68, 210, 255);
         }
 
         &_one {
-            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game1.jpeg);           
+            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game1.jpeg);  
+            background-size: auto;         
         }
 
         &_two {

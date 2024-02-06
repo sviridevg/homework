@@ -73,6 +73,7 @@ a {
        column-gap: 32px;
   justify-content: center;
   padding-block: 128px;
+  box-sizing: border-box;
 }
 .games__link {
   display: flex;
@@ -80,13 +81,13 @@ a {
   height: 300px;
   border-radius: 16px;
   align-items: flex-end;
-  box-sizing: border-box;
 }
 .games__link:hover {
-  border: 3px solid rgb(68, 210, 255);
+  outline: 3px solid rgb(68, 210, 255);
 }
 .games__link_one {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game1.jpeg);
+  background-size: auto;
 }
 .games__link_two {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
