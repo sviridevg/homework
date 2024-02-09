@@ -93,15 +93,17 @@ a {
 
         &_one {
             background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game1.jpeg);  
-            background-size: auto;         
+            position: relative;       
         }
 
         &_two {
             background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
+            position: relative;    
         }
 
         &_three {
             background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game3.jpeg);
+            position: relative;    
         }
     }
 
@@ -112,7 +114,7 @@ a {
         font-weight: 600;
         line-height: 32px;
         position: absolute;
-        padding-left: 32px;
-        padding-bottom: 32px;
+        left: 32px;
+        bottom: 32px;
     }
 }

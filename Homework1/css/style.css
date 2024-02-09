@@ -87,13 +87,15 @@ a {
 }
 .games__link_one {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game1.jpeg);
-  background-size: auto;
+  position: relative;
 }
 .games__link_two {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
+  position: relative;
 }
 .games__link_three {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game3.jpeg);
+  position: relative;
 }
 .games__card-text {
   color: rgb(255, 255, 255);
@@ -101,6 +103,6 @@ a {
   font-weight: 600;
   line-height: 32px;
   position: absolute;
-  padding-left: 32px;
-  padding-bottom: 32px;
+  left: 32px;
+  bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
