@@ -73,10 +73,11 @@ a {
     &__box {
         background: rgb(0, 9, 21);
         display: flex;
-        column-gap: 32px;
+        gap: 30px;
         justify-content: center;
         padding-block: 128px;
         box-sizing: border-box;
+        flex-wrap: wrap;
     }
 
 
@@ -118,3 +119,5 @@ a {
         bottom: 32px;
     }
 }
+
+@import 'mobile';
