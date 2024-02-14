@@ -20,8 +20,12 @@ let difference = x - y;
 let product = x * y;
 let quotient = x / y;
 alert (`
-    Сумма переменных ${sum}
-    Вычитание переменных ${difference}
-    Умножение переменных ${product}
-    Деление переменных ${quotient}
+    Сумма переменных = ${sum}
+    Вычитание переменных = ${difference}
+    Умножение переменных = ${product}
+    Деление переменных = ${quotient}
 `)
+
+// Exercise 5
+let result = 2 ** 5
+alert (result)
