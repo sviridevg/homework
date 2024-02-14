@@ -24,8 +24,14 @@ alert (`
     Вычитание переменных = ${difference}
     Умножение переменных = ${product}
     Деление переменных = ${quotient}
-`)
+`);
 
 // Exercise 5
 let result = 2 ** 5
-alert (result)
+alert (result);
+
+// Exercise 6
+a = 9;
+let b = 2;
+let remainder = a % b;
+alert (remainder);
