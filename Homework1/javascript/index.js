@@ -69,3 +69,7 @@ delete user["cityOfResidence"];
 // Exercise 9.4
 let info = prompt (`Какую информацию хотите узнать о пользователе Name или Age?`)
 alert (user[info]);
+
+// Exercise 10
+let wyn = prompt (`Как Ваше имя!?`)
+alert (`Привет, `+ wyn + `!`)
