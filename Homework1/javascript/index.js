@@ -57,4 +57,15 @@ let user = {
     isAdmin: true
 };
 
+// Exercise 9.1
+user["cityOfResidence"] = "Санкт-Петербург";
 
+// Exercise 9.2
+user[`age`] = 17;
+
+// Exercise 9.3
+delete user["cityOfResidence"];
+
+// Exercise 9.4
+let info = prompt (`Какую информацию хотите узнать о пользователе Name или Age?`)
+alert (user[info]);
