@@ -49,3 +49,12 @@ alert(num);
 // Exercise 8
 let age = prompt ("Сколько вам лет?");
 alert (age);
+
+// Exercise 9.0
+let user = {
+    name: "Евгений", 
+    age: 33,
+    isAdmin: true
+};
+
+
