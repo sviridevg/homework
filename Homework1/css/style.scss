@@ -120,4 +120,48 @@ a {
     }
 }
 
+.seasons {
+    &__content {
+        background: rgb(0, 9, 21);
+        display: flex;
+        padding-block: 282px;
+        box-sizing: border-box;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+        max-width: 750px;
+    }
+
+    &__text {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        max-width: 584px;
+        padding-top: 32px;
+    }
+
+    &__img {
+        width: 485px;
+        height: 333px;
+    }
+
+}
+
 @import 'mobile';

@@ -29,4 +29,33 @@
         width: 343px;
         height: 300px;
     }
+    .seasons {
+        &__content {
+            padding-top: 51px;
+            padding-bottom: 85px;
+        }
+
+        &__description {
+            align-items: center
+        }
+
+        &__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+
+        &__text {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__img {
+            width: 344px;
+            height: 236px;
+            margin-top: 64px;
+        }
+    }
 }
