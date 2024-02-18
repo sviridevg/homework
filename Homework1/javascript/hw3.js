@@ -74,3 +74,6 @@ switch (numbmon) {
         console.log('ошибся с номером месяца!');
         break;
 }
+
+// Exercise 6
+// Загрузил вместе с Exercise 1
