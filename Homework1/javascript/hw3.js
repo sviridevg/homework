@@ -7,3 +7,11 @@ if (password == entpass) {
 } else {
     console.log("Пароль введен неправильно")
 }
+
+// Exercise 2
+let c = 8;
+if (c > 0 && c < 10) {
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
