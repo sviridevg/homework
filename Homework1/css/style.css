@@ -69,11 +69,11 @@ a {
 .games__box {
   background: rgb(0, 9, 21);
   display: flex;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  gap: 30px;
   justify-content: center;
   padding-block: 128px;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 .games__link {
   display: flex;
@@ -105,4 +105,34 @@ a {
   position: absolute;
   left: 32px;
   bottom: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+  }
+  .top__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 239px;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .games__link {
+    width: 343px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
