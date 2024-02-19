@@ -77,3 +77,15 @@ switch (numbmon) {
 
 // Exercise 6
 // Загрузил вместе с Exercise 1
+
+// Exercise 7
+let entnumb = prompt('Введите число!')
+let isNumber = !isNaN(entnumb);
+if (isNumber == false) {
+    alert('Это не число!');
+    window.location.reload();
+} else if (entnumb % 2 === 0) {
+        alert('Число четное')
+    } else {
+        alert('Число нечетное')
+};
