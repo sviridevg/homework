@@ -89,3 +89,18 @@ if (isNumber == false) {
     } else {
         alert('Число нечетное')
 };
+
+
+// Exercise 8
+let clientOS = (navigator.userAgent);
+if (clientOS.includes("iPhone") === true){
+    console.log("Установите версию приложения для iOS по ссылке");
+} else if (clientOS.includes("iPad") === true) {
+    console.log("Установите версию приложения для iOS по ссылке");
+} else if (clientOS.includes("Macintosh") === true) {
+    console.log("Установите версию приложения для iOS по ссылке");
+} else if (clientOS.includes("Mac") === true) {
+    console.log("Установите версию приложения для iOS по ссылке");
+} else if (clientOS.includes("Android") === true) {
+    console.log("Установите версию приложения для Android по ссылке");
+} 
