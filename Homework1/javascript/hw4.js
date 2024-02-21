@@ -1,5 +1,9 @@
 // Exercise 1
-
+let hello = 0;
+while (hello < 2) {
+    console.log("Привет!");
+    hello++
+}
 
 // Exercise 2
 
