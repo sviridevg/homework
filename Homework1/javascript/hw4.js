@@ -6,7 +6,11 @@ while (hello < 2) {
 }
 
 // Exercise 2
-
+let numb = 1;
+while (numb <= 5) {
+    console.log(numb);
+    numb++
+}
 
 // Exercise 3
 
