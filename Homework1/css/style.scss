@@ -118,15 +118,14 @@ a {
         left: 32px;
         bottom: 32px;
     }
-}
 
-.seasons {
     &__content {
         background: rgb(0, 9, 21);
         display: flex;
         padding-block: 282px;
         box-sizing: border-box;
         flex-wrap: wrap; 
+        row-gap: 44px;
         justify-content: space-between;
         align-items: center;
     }
@@ -165,3 +164,4 @@ a {
 }
 
 @import 'mobile';
+@import 'tablet';
