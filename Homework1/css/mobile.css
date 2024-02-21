@@ -26,4 +26,27 @@
     width: 343px;
     height: 300px;
   }
+  .seasons__content {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .seasons__description {
+    align-items: center;
+  }
+  .seasons__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .seasons__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+  }
+  .seasons__img {
+    width: 344px;
+    height: 236px;
+    margin-top: 64px;
+  }
 }/*# sourceMappingURL=mobile.css.map */
