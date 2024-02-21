@@ -13,6 +13,11 @@ while (numb <= 5) {
 }
 
 // Exercise 3
+let i = 7;
+while (i <= 22) {
+    console.log(i);
+    i++
+}
 
 
 // Exercise 4
