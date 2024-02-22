@@ -25,11 +25,9 @@ for (var key in obj) {
     console.log(key + ' - зарплата ' + obj[key] + ' долларов')
 }
 
-
 // Exercise 5
 let n = 1000;
 let num = 0;
-
 while (n >= 50) {
     n = (n / 2);
     num++;
@@ -37,3 +35,8 @@ while (n >= 50) {
 console.log(`Результат деления: ${n}. Количество итераций: ${num}`);
 
 // Exercise 6
+let friday = 5;
+while (friday <= 31) {
+friday += 7;
+console.log(`Сегодня пятница, ${friday} -е число. Необходимо подготовить отчет.`);
+}
