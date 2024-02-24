@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -25,14 +25,16 @@
             text-align: center;
         }
     }
-    .games__link {
+    .games {
+        &__link {
         width: 343px;
         height: 300px;
-    }
-    .seasons {
+        }
+
         &__content {
             padding-top: 51px;
             padding-bottom: 85px;
+            justify-content: center;
         }
 
         &__description {
@@ -57,5 +59,11 @@
             height: 236px;
             margin-top: 64px;
         }
+
+        &_remembTheWord {
+            flex-direction: column-reverse;
+        }
+
     }
+
 }

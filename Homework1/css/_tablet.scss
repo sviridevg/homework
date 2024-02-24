@@ -1,0 +1,33 @@
+@media (max-width: 1090px) {
+
+    .top {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            text-align: center;
+        }
+    }
+
+
+    .games{
+        &__content {
+            justify-content: center;
+        }
+
+        &__description {
+            align-items: center;
+        }
+
+        &_remembTheWord {
+            flex-direction: column-reverse;
+        }
+
+        &__text {
+            text-align: center;
+        }
+    }
+}
