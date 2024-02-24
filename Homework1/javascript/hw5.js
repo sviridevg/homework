@@ -47,6 +47,18 @@ function HowOldAreYou() {
 HowOldAreYou()
 
 // Exercise 5
+function algByNumb() {
+    let number1 = prompt('Введите первое число!')
+    let number2 = prompt('Введите второе число!')
+    let isNumber = !isNaN(number1 || number1);
+    if (isNumber == false) {
+        alert('Одно или оба значения не являются числом');
+        return algByNumb();
+    } else {
+            alert('Произведение данных чисел ' + number1 * number2)
+    };
+}
+algByNumb()
 
 // Exercise 6
 
