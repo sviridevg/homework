@@ -11,8 +11,16 @@ console.log(smallerOfTwoNumbers(6, 6));
 console.log(smallerOfTwoNumbers(1, 6));
 console.log(smallerOfTwoNumbers(9, 12));
 
-
 // Exercise 2
+function isEven(number) {
+    if (number % 2 == 0) {
+        return "Число четное";
+    } else {
+        return "Число не четное";
+    }
+}
+let number = prompt("Введите число");
+console.log(isEven(number));
 
 // Exercise 3
 
