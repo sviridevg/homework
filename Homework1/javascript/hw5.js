@@ -61,6 +61,17 @@ function algByNumb() {
 algByNumb()
 
 // Exercise 6
+function cube() {
+    let n = prompt('Введите число!')
+    let isN = !isNaN(n);
+    if (isN == false){
+        console.log('Переданный параметр не является числом');
+        return cube();
+    } else {
+            console.log('N в кубе равняется ' + n ** 3)
+    };
+}
+cube()
 
 // Exercise 7
 
