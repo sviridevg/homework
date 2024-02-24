@@ -26,12 +26,25 @@ console.log(isEven(number));
 function square(n) {
     return n * n; 
 }
-const number = 5;
-console.log(square(number)); 
-const squareOfNumber = square(number);
+const numb = 5;
+console.log(square(numb)); 
+const squareOfNumber = square(numb);
 console.log(squareOfNumber); 
 
 // Exercise 4
+function HowOldAreYou() {
+    let youOld = prompt("Сколько Вам лет?");
+    if (youOld < 0) {
+        console.log('Вы ввели неправильное значение');
+        return;
+    } else if (youOld <= 12) {
+        console.log('Привет, друг!');
+        return;
+    } else {
+        console.log('Добро пожаловать!');
+    }
+}
+HowOldAreYou()
 
 // Exercise 5
 
