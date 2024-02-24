@@ -144,6 +144,41 @@ a {
   height: 333px;
 }
 
+.puzzles__content {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.355%, rgb(0, 9, 21) 100%), url(../img/unsplashiO0I6-mhDEY.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-block: 276px;
+}
+.puzzles__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.puzzles_title {
+  text-align: center;
+}
+.puzzles_text {
+  text-align: center;
+  max-width: 1200px;
+}
+
+.footer {
+  background-color: rgb(0, 9, 21);
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-block: 32px;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
