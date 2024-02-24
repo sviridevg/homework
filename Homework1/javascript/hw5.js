@@ -68,7 +68,7 @@ function cube() {
         console.log('Переданный параметр не является числом');
         return cube();
     } else {
-            console.log('N в кубе равняется ' + n ** 3)
+            console.log(n + ' в кубе равняется ' + n ** 3)
     };
 }
 cube()
