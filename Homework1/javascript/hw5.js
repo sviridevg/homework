@@ -22,7 +22,14 @@ function isEven(number) {
 let number = prompt("Введите число");
 console.log(isEven(number));
 
-// Exercise 3
+// Exercise 3.1 - 3.2
+function square(n) {
+    return n * n; 
+}
+const number = 5;
+console.log(square(number)); 
+const squareOfNumber = square(number);
+console.log(squareOfNumber); 
 
 // Exercise 4
 
