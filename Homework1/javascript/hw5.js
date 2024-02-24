@@ -74,5 +74,33 @@ function cube() {
 cube()
 
 // Exercise 7
+function getArea() {
+    console.log(`Площадь ${this.name}а ${this.serNumb} равна ${Math.PI * ((this.radius) ** 2)}`);
+}
+
+function getPerimeter() {
+    console.log(`Периметр ${this.name}а ${this.serNumb} равен ${2 * Math.PI * this.radius}`);
+}
+
+const circle1 = {
+    name: 'круг',
+    serNumb: '№1',
+    radius: 25,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+const circle2 = {
+    name: 'круг',
+    serNumb: '№2',
+    radius: 17,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+circle1.getArea();
+circle1.getPerimeter();
+circle2.getArea();
+circle2.getPerimeter();
 
 // Exercise 8
