@@ -104,3 +104,32 @@ circle2.getArea();
 circle2.getPerimeter();
 
 // Exercise 8
+function Seasons() {
+    let numbmon = String(prompt('Введите номер месяца!'))
+    if (numbmon == 12 || numbmon == 1 || numbmon == 2) {
+        console.log('Зима');
+        confirmPars();
+    } else if (numbmon == 3 || numbmon == 4 || numbmon == 5) {
+        console.log('Весна');
+        confirmPars();
+    } else if (numbmon == 6 || numbmon == 7 || numbmon == 8) {
+        console.log('Лето');
+        confirmPars();
+    } else if (numbmon == 9 || numbmon == 10 || numbmon == 11) {
+        console.log('Осень');
+        confirmPars();
+    } else {
+        console.log('Вы ввели что то не то');
+    }
+}
+
+function confirmPars() {
+    const isconfirm = confirm('Хотите продолжить?');
+    if (isconfirm === true) {
+        Seasons();
+    } else {
+        alert('До встречи в следующий раз');
+    }
+}
+
+Seasons();
