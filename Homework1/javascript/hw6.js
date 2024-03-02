@@ -41,6 +41,17 @@ masExSix.pop();
 console.log(masExSix);
 
 // Exercise 7
+const masExSeven = [9, 8, 7, 6, 5];
+let numb = Number(prompt('Введите число!'))
+let isContains = masExSeven.includes(numb);
+function truOfFalse() {
+    if (isContains === true) {
+        alert("Угадал");
+    } else {
+        alert("Не угадал");
+    }
+}
+truOfFalse()
 
 // Exercise 8
 
