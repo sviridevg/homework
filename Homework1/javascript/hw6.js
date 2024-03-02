@@ -14,6 +14,9 @@ masExTwo.forEach((el, index) => {
 });
 
 // Exercise 3
+const masExThree = [1, 3, 5, 10, 20];
+let joinmasExThree = masExThree.join(" ");
+console.log(joinmasExThree);
 
 // Exercise 4
 
