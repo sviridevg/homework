@@ -19,6 +19,15 @@ let joinmasExThree = masExThree.join(" ");
 console.log(joinmasExThree);
 
 // Exercise 4
+let masExFour = [];
+for (let a = 0; a < 3; a++) {
+    let masExFourNest = [];
+for (let b = 0; b < 3; b++) {
+    masExFourNest.push(1);
+}
+    masExFour.push(masExFourNest);
+}
+console.log(masExFour);
 
 // Exercise 5
 
