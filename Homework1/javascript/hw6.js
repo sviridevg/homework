@@ -35,6 +35,10 @@ masExFive.push(2, 2, 2)
 console.log(masExFive);
 
 // Exercise 6
+const masExSix = [9, 8, 7, 'a', 6, 5];
+masExSix.sort();
+masExSix.pop();
+console.log(masExSix);
 
 // Exercise 7
 
