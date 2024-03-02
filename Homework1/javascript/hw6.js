@@ -30,6 +30,9 @@ for (let b = 0; b < 3; b++) {
 console.log(masExFour);
 
 // Exercise 5
+const masExFive = [1, 1, 1];
+masExFive.push(2, 2, 2)
+console.log(masExFive);
 
 // Exercise 6
 
