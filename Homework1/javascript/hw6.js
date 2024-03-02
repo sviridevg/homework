@@ -6,6 +6,12 @@ for (let endTen = 0; endTen < ten.length; endTen++) {
 }
 
 // Exercise 2
+const masExTwo = [1, 5, 4, 10, 0, 3];
+masExTwo.forEach((el, index) => {
+    if (el == 4) {
+        console.log(`${index}`);
+    }
+});
 
 // Exercise 3
 
