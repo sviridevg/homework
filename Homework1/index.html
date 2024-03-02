@@ -20,34 +20,34 @@
     <div class="main">
         <section class="games">
             <div class="games__box center">
-                <a class="games__item" href="#">
+                <a class="games__item" href="#seasons">
                     <div class="games__link games__link_one">
                         <p class="games__card-text">Игра 1</p>
                     </div>
                 </a>
-                <a class="games__item" href="#">
+                <a class="games__item" href="#remembTheWord">
                     <div class="games__link games__link_two">
                         <p class="games__card-text">Игра 2</p>
                     </div>
                 </a>
-                <a class="games__item" href="#">
+                <a class="games__item" href="#puzzles">
                     <div class="games__link games__link_three">
                         <p class="games__card-text">Игра 3</p>
                     </div>
                 </a>
             </div>
         </section>
-        <section class="seasons">
+        <section class="seasons" id="seasons">
             <div class="games__content center">
                 <div class="games__description">
                     <h2 class="games__title">Времена года!</h2>
                     <p class="games__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                    <button class="buttons">Играть!</button>
+                    <button onclick="Seasons()" class="buttons">Играть!</button>
                 </div>
                 <img class="games__img" src="/img/undraw_video_game_night_8h8m.svg" alt="Игровой джойстик">
             </div>
         </section>
-        <section class="remembTheWord">
+        <section class="remembTheWord" id="remembTheWord">
             <div class="games__content games_remembTheWord center">
                 <img class="games__img" src="/img/undraw_gaming_re_cma2.svg" alt="Игровой джойстик">
                 <div class="games__description">
@@ -57,6 +57,21 @@
                 </div>
             </div>
         </section>
+        <section class="puzzles" id="puzzles">
+            <div class="puzzles__content center">
+                <div class="puzzles__description">
+                    <H1 class="games__title puzzles_title">Игра в загадки</H1>
+                    <p class="games__text puzzles_text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</b></p>
+                    <button class="buttons">Играть!</button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__content center">
+                <p class="footer__text">Все права защищены</p>
+            </div>
+        </footer>
     </div> 
+    <script src="javascript/games.js"></script>
 </body>
 </html>
