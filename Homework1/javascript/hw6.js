@@ -54,6 +54,12 @@ function truOfFalse() {
 truOfFalse()
 
 // Exercise 8
+let text = 'abcdef';
+let splitText = text.split("");
+splitText.reverse();
+text = splitText.join("");
+console.log(text);
+
 
 // Exercise 9
 
