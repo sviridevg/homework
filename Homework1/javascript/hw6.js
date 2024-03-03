@@ -60,8 +60,11 @@ splitText.reverse();
 text = splitText.join("");
 console.log(text);
 
-
 // Exercise 9
+const masExNine = [[1, 2, 3],[4, 5, 6]];
+let joinmasExNine = masExNine.join(',');
+let masExNineNew = joinmasExNine.split(',').map(Number);
+console.log(masExNineNew);
 
 // Exercise 10
 
