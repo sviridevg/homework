@@ -87,9 +87,34 @@ const masExElevenSqr = masExEleven.map(function (num) {
 console.log(masExElevenSqr);
 
 // Exercise 12
+const masExTvl = source => source.map(str => str.length);
+console.log(masExTvl(['Кресло', 'Стул', 'Диван']));
 
 // Exercise 13
+const masExThrt = [1, 2, -3, -4, 5, 6, -9, -2];
+const result = masExThrt.filter((num) => num < 0);
+console.log(result);
 
 // Exercise 14
+const masExFrt = [];
+for (let i = 0; i < 10; i++) {
+    masExFrt.push(Math.floor(Math.random() * 11));
+}
+console.log(masExFrt);
+const evenOnly = masExFrt.filter(function (n) {
+    const remainder = n % 2
+    return remainder === 0
+})
+console.log(evenOnly);
 
 // Exercise 15
+const masExFFt = [];
+for (let i = 0; i < 6; i++) {
+    masExFFt.push(Math.floor(Math.random() * 11));
+}
+console.log(masExFFt);
+const getAverage = (masExFFt) => {
+    const sum = masExFFt.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    return sum / masExFFt.length;
+};
+console.log(getAverage(masExFFt));
