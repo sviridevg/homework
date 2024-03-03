@@ -67,8 +67,24 @@ let masExNineNew = joinmasExNine.split(',').map(Number);
 console.log(masExNineNew);
 
 // Exercise 10
+const arr = [];
+for (let i = 1; i <= 10; i++) {
+arr.push(Math.floor(Math.random() * 10) + 1);
+}
+for (let i = 0; i < arr.length; i++) {
+if (i + 2 < arr.length) {
+console.log(arr[i] + arr[i + 1]);
+} else {
+console.log("Последний элемент");
+}
+}
 
 // Exercise 11
+const masExEleven = [2, 4, 6, 8];
+const masExElevenSqr = masExEleven.map(function (num) {
+    return num ** 2
+})
+console.log(masExElevenSqr);
 
 // Exercise 12
 
