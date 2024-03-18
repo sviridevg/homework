@@ -12,7 +12,10 @@ a {
     cursor: url(../img/cursor.svg), auto;
 }
 
-.body, button, select, input {
+.body,
+button,
+select,
+input {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,7 +26,7 @@ a {
 
 .top {
     height: 1024px;
-    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0) -7.355%,rgb(0, 9, 21) 100%), url(../img/sp2077.jpeg);
+    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0) -7.355%, rgb(0, 9, 21) 100%), url(../img/sp2077.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,7 +70,7 @@ a {
     font-weight: 400;
     line-height: 22px;
     cursor: url(../img/cursor.svg), auto;
-    
+
     &:hover {
         background: rgb(235, 68, 63);
     }
@@ -97,18 +100,18 @@ a {
         }
 
         &_one {
-            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game1.jpeg);  
-            position: relative;       
+            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game1.jpeg);
+            position: relative;
         }
 
         &_two {
-            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
-            position: relative;    
+            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game2.jpeg);
+            position: relative;
         }
 
         &_three {
-            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0),rgb(0, 25, 68) 100%), url(../img/game3.jpeg);
-            position: relative;    
+            background: linear-gradient(180.00deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(../img/game3.jpeg);
+            position: relative;
         }
     }
 
@@ -128,7 +131,7 @@ a {
         display: flex;
         padding-block: 282px;
         box-sizing: border-box;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         row-gap: 44px;
         justify-content: space-between;
         align-items: center;
@@ -169,7 +172,7 @@ a {
 
 .puzzles {
     &__content {
-        background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0) -7.355%,rgb(0, 9, 21) 100%), url(../img/unsplashiO0I6-mhDEY.png);
+        background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0) -7.355%, rgb(0, 9, 21) 100%), url(../img/unsplashiO0I6-mhDEY.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -201,7 +204,7 @@ a {
         justify-content: center
     }
 
-    &__text{
+    &__text {
         color: rgb(255, 255, 255);
         font-size: 12px;
         font-weight: 400;
